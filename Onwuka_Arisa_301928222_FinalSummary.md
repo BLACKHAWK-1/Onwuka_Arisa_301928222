@@ -47,7 +47,7 @@ The customer, restaurant, menu_item, food_order, order_item were kept in separat
 
 ## AI-use declaration
 
-I used GitHub Copilot while preparing the database model, scripts and explanations. I remain responsible for developing, checking and explaining the submitted work.
+I used GitHub Copilot while preparing the database model and the test scripts. I remain responsible for developing, checking and explaining the submitted work.
 
 ## References
 
