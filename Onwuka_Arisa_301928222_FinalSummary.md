@@ -4,7 +4,7 @@
 
 ## Case study
 
-My case study is Food Delivery Platform. I designed the database for customers placing and tracking food orders, restaurant staff reviewing orders and support staff investigating order status, with separate tables named customer, restaurant, menu_item, food_order and order_item. It supports these operations: browse restaurants and available menu items; place an order with one or more menu items; update and review an order status.
+Out of the cases or projects given to us in this assignent, I decided to take a different route by going for a custom-made Food Delivery Platform. In this project, the database was designed to enable customers place and track food orders, restaurant staff reviews orders and support staff investigates order status, with the associated tables named customer, restaurant, menu_item, food_order and order_item. In this project, the following functions are supported: browse restaurants and available menu items; place an order with one or more menu items; update and review an order status.
 
 ## Portfolio 1: Database Design and Modelling
 
