@@ -39,7 +39,7 @@ The portfolio folders contain the SQL and JavaScript, explanations, query plans,
 
 ## Portfolio 5: Distributed and Cloud Database Exercise
 
-I proposed three MongoDB replica members across separate failure zones. The discussion covers primary elections, majority acknowledgement, secondary lag and sharding trade-offs for order_events. Replication supports availability, while backups address recovery. PostgreSQL needs its own availability plan. This is the permitted discussion option; no live replica set or failover test was deployed.
+I proposed three MongoDB replica members across separate failure zones with replication supporting availability while backups address recovery. PostgreSQL may need its own availability plan. No live replica set or failover test was deployed.
 
 ## Individual reflection
 
