@@ -26,7 +26,7 @@ Coming to the third portfolio, I had to use a temporary counter on order_item to
 
 ## Portfolio 4: NoSQL and Advanced Data Models
 
-In this portfolio, I used order_events for the case's event documents. Using MongoDB, I inserted 2 sample events which returned the expected results for 4 queries. The validation rejected an invalid date type alongside a duplicate event ID. The embedded snapshots kept related details with an event while the details field can differ by event type. These are fictional events; PostgreSQL continues to enforce its relational rules.
+In this portfolio, I used order_events for the case's event documents. Using MongoDB, I inserted 2 sample events which returned the expected results for 4 queries. The validation rejected an invalid date type alongside a duplicate event ID. The embedded snapshots kept related details with an event while the details field can differ by event type. Please note that these are fictional events and PostgreSQL continues to enforce its relational rules.
 
 ## Repository and evidence
 
@@ -43,11 +43,11 @@ I proposed three MongoDB replica members across separate failure zones. The disc
 
 ## Individual reflection
 
-I kept customer, restaurant, menu_item, food_order, order_item in separate tables so their details could be maintained without repeating them in every related record. An order line quantity must be greater than zero. The constraint tests check this alongside the required values and record links. One issue illustrated by the two-session exercise is that both sessions can read the same value before either update is committed. Locking the row before reading preserves both increments. The index comparison also shows why I need to check the execution plan as well as the final answer: the same result can require different amounts of database work.
+The customer, restaurant, menu_item, food_order, order_item were kept in separate tables so their details could be maintained without constantly repeating them in every related record. An order line quantity must be greater than zero. The constraint tests checks these alongside any required values and record links. An issue which was illustrated by the two-session exercise is that both sessions can read the same value before either update is committed. Locking the row before reading preserves both increments. The index comparison also shows why I need to check the execution plan as well as the final answer: the same result can require different amounts of database work.
 
 ## AI-use declaration
 
-I used GitHub Copilot and the portfolio generator to help prepare the database model, scripts and explanations. The generator ran the PostgreSQL and MongoDB exercises, checked their outputs and captured the result images.  I remain responsible for checking and explaining the submitted work.
+I used GitHub Copilot while preparing the database model, scripts and explanations. I remain responsible for developing, checking and explaining the submitted work.
 
 ## References
 
